@@ -1,12 +1,12 @@
 -- employers
-INSERT INTO employer(employer_id, company_name, employees_count, creation_time)
-  VALUES (1, 'Blues Bar', 10, '2018-01-01');
-INSERT INTO employer(employer_id, company_name, employees_count, creation_time)
-  VALUES (2, 'Jazz Club', 15, '2018-02-02');
-INSERT INTO employer(employer_id, company_name, employees_count, creation_time)
-  VALUES (3, 'Rock Cafe', 20, '2018-03-03');
-INSERT INTO employer(employer_id, company_name, employees_count, creation_time)
-  VALUES (4, 'Metal Basement', 5, '2018-04-04');
+INSERT INTO employer(employer_id, company_name, creation_time)
+  VALUES (1, 'Blues Bar', '2018-01-01');
+INSERT INTO employer(employer_id, company_name, creation_time)
+  VALUES (2, 'Jazz Club', '2018-02-02');
+INSERT INTO employer(employer_id, company_name, creation_time)
+  VALUES (3, 'Rock Cafe', '2018-03-03');
+INSERT INTO employer(employer_id, company_name, creation_time)
+  VALUES (4, 'Metal Basement', '2018-04-04');
 
 -- vacancies
 INSERT INTO vacancy(vacancy_id, title, description, employer_id)
